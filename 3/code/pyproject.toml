@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "code"
+version = "0.1.0"
+description = ""
+authors = ["ilyakhakimov03 <Khakimov.IA@servionica.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+numpy = "^2.2.2"
+xlrd = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
